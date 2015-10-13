@@ -1,0 +1,45 @@
+<!doctype html>
+  <body>
+    <script src="../extensions/soundmanager2-jsmin.js"></script>
+    <script type="text/javascript" src="../core/iioEngine.js"></script>
+    <script>
+    soundManager.setup({
+  url: '../extensions/swf',
+  // optional: use 100% HTML5 mode where available
+  // preferFlash: false,
+  onready: function() {
+    var mySound = soundManager.createSound({
+      id: 'aSound',
+      url: 'XF_Cym09a.mp3.mp3'
+    });
+    mySound.play();
+  },
+  ontimeout: function() {
+    alert('not working')
+  }
+});
+    </script>
+    <script type="text/javascript">
+
+    ButtonDemo = function(io){
+
+      var btn = io.addObj(new iio.Rect(io.canvas.center, 160, 40)
+        .setFillStyle('#00baff'));
+
+      //print instructions
+      btn.text = io.addObj(new iio.Text('Button!',btn.pos)
+                    .setFont('26px Consolas')
+                    .translate(0,8)
+                    .setTextAlign('center')
+                    .setFillStyle('white'));
+
+      io.canvas.addEventListener('mousedown', function(event){
+        if (btn.contains(io.getEventPosition(event)))
+          alert('button pushed');
+      });
+ 
+    };// iio.start(ButtonDemo);
+
+    </script>
+  </body>
+</html>

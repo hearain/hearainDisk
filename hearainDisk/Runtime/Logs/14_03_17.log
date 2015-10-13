@@ -1,0 +1,53 @@
+[ 2014-03-17T21:43:34+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.073048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.073423s ]
+
+[ 2014-03-17T21:43:35+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.073637s ]
+INFO: [ route_check ] --END-- [ RunTime:0.073818s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.568412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.568571s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.045994s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.056811s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.031981s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.028717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.163903s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.028319s ]
+INFO: [ view_end ] --END-- [ RunTime:0.028455s ]
+
+[ 2014-03-17T21:43:35+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000581s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+
+[ 2014-03-17T21:43:35+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000611s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013108s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000684s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000576s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000474s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002636s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000525s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000634s ]
+

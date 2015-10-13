@@ -1,0 +1,150 @@
+[ 2014-04-02T17:24:15+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004163s ]
+
+[ 2014-04-02T17:24:16+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.051308s ]
+INFO: [ route_check ] --END-- [ RunTime:0.051572s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.361555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.361841s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006839s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002766s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001165s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.034714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.046339s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010210s ]
+
+[ 2014-04-02T17:24:17+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002224s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002535s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010699s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.086726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087018s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.050818s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001350s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000925s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.055011s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001271s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001492s ]
+
+[ 2014-04-02T17:24:30+08:00 ] 127.0.0.1 /index.php/Login/login.html?loginname=admin&passwd=123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001474s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001764s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `disk_login` [ RunTime:0.692183s ]
+SQL: SELECT * FROM `disk_login` WHERE ( user_name='admin' AND pwd='123' ) LIMIT 1   [ RunTime:0.044276s ]
+
+[ 2014-04-02T17:24:31+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001416s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001709s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+SQL: select sum(file_size) as space from disk_files where user_name='admin' [ RunTime:0.064520s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.077947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078229s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001306s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001124s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000694s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004901s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001542s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001777s ]
+
+[ 2014-04-02T17:24:34+08:00 ] 127.0.0.1 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001314s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.020710s ]
+SQL: SELECT * FROM `disk_files` WHERE ( user_name='admin' ) ORDER BY time  [ RunTime:0.001114s ]
+
+[ 2014-04-02T17:24:44+08:00 ] 127.0.0.1 /index.php/Pic/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001322s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: space D:\wamp\www\hearainDisk\Runtime\Cache\2ae5014e24cd35f6e8fa1281f54e6f84.php 第 394 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.110672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110950s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002196s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001008s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002026s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007368s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001073s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001298s ]
+
+[ 2014-04-02T17:24:46+08:00 ] 127.0.0.1 /index.php/Index/pic.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001520s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001858s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.005805s ]
+SQL: SELECT * FROM `disk_files` WHERE ( user_name='admin' AND (type='jpg' OR type='png' OR type='gif') ) ORDER BY time  [ RunTime:0.000842s ]
+
+[ 2014-04-02T17:24:47+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001264s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: select sum(file_size) as space from disk_files where user_name='admin' [ RunTime:0.000490s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028900s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001454s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001089s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000987s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007985s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001322s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001661s ]
+
+[ 2014-04-02T17:24:50+08:00 ] 127.0.0.1 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001259s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001638s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.007511s ]
+SQL: SELECT * FROM `disk_files` WHERE ( user_name='admin' ) ORDER BY time  [ RunTime:0.002834s ]
+

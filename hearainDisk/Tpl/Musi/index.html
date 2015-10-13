@@ -1,0 +1,300 @@
+<extend name="Public:base"/>
+<block name="title">文档</block>
+<block name="style">
+<link rel="stylesheet" href="/Static/css/stylesheets/style.css">
+<style>
+.uploadify-bg{
+	background-color:#fff;
+	box-shadow:0px 0px 20px -2px rgba(0, 0, 0, 0.5);
+}
+</style>
+</block>
+<block name="script">
+<script src="/Static/js/jquery-ui-1.8.17.custom.min.js"></script>
+<script>
+var username="";
+$(document).ready(function(){
+		$("#myplayer").css("display","none");
+		$("#myplayer").mouseover(function(){
+			$("#button").css("display","block");
+			$("#close").css("display","block");
+		});       
+		$("#myplayer").mouseout(function(){
+			$("#button").css("display","none");
+			$("#close").css("display","none");
+		});
+		$("#allfile").removeClass("choosed");
+		$("#musi").addClass("choosed"); 
+		ajax('{:U("Index/musi")}','json','',true,res.valuation);
+})
+
+    function ajax(_url, _dataType, _data, _sync, operation) {
+        try {
+            $.ajax({
+                url: _url,
+                type: "POST",
+                dataType: _dataType,
+                data: _data,
+                async: _sync,
+                error: function(msg) {
+                    //tipsWindown("text*异常");    
+                },
+                success: function(data)
+                {
+                    operation(data);
+                }
+            });
+        } catch (error) {
+            //tipsWindown("text*异常");
+        }
+    }
+    var res={};
+	var list=0;
+	var fileinfo = [{    
+					title: '',
+					artist: '',
+					album: '',
+					cover: '',
+					mp3: '',
+					},
+					];
+    res.valuation=function(data){
+		username = data[0].user_name;
+		for (var i=0;i<data.length;i++){
+		var file_size;
+		if(data[i].file_size>=1024&&data[i].file_size<1048576){
+			data[i].file_size=parseInt(data[i].file_size/1024);
+			file_size=data[i].file_size+"KB";
+		}
+		else if(data[i].file_size>=1048576&&data[i].file_size<1073741824){
+			data[i].file_size=parseInt(data[i].file_size/1048576);
+			file_size=data[i].file_size+"MB";
+		}
+		else if(data[i].file_size>=1073741824){
+			data[i].file_size=parseInt(data[i].file_size/1073741824);
+			file_size=data[i].file_size+"GB";
+		}
+		else file_size=data[i].file_size+"B";
+		var s='<tr onclick="checked('+i+')">';
+		s+='<td width="2%"><input type="checkbox" name="items" id="check'+i+'"/><input type="hidden" id="file'+i+'" value="'+data[i].file_name+'"></td>';
+		s+='<td width="70%" id="name'+i+'"><a href=javascript:preview("'+data[i].file_name+'","'+data[i].user_name+'","'+data[i].file_nickname.replace(/[ ]/g,"")+'") style="color:#000">'+data[i].file_nickname+'</a></td>';
+		s+='<td width="13%"> '+file_size+'</td>';
+		s+='<td width="15%"> '+data[i].time+'</td></tr>';
+		$("#filelist").append(s);
+		}
+	}
+	
+	function checked(i){
+		var inputs=document.getElementsByName("items");
+		var checked_counts = 0;  
+		$("#allcheked").attr("checked",false);
+        if ($("#check"+i).attr("checked")) {
+        	$("#check"+i).attr("checked", false);
+			for(var n=0;n<inputs.length;n++){
+			if(inputs[n].checked){
+			checked_counts++;
+			}
+			}
+			if(checked_counts==0){
+				$("#select").html("文件夹");
+			}else{
+				$("#select").html("已选中<span>" + checked_counts + "</span>个文件/文件夹&nbsp;&nbsp;&nbsp;&nbsp;<button class='pure-button pure-button-small' onclick=''>分享</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class='pure-button pure-button-small' onclick='download()'>下载</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class='pure-button pure-button-small' onclick='del()'>删除</button>");
+			}
+        } else {  
+            $("#check"+i).attr("checked", true);
+			for(var n=0;n<inputs.length;n++){
+			if(inputs[n].checked){
+			checked_counts++;
+			}
+			}
+			$("#select").html("已选中<span>" + checked_counts + "</span>个文件/文件夹&nbsp;&nbsp;&nbsp;&nbsp;<button class='pure-button pure-button-small' onclick=''>分享</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class='pure-button pure-button-small' onclick='download()'>下载</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class='pure-button pure-button-small' onclick='del()'>删除</button>");
+		}
+	}
+	
+	function checkall(){
+		if ($("#allcheked").attr("checked")) {
+			$("input[name=items]").each(function() {  
+                $(this).attr("checked", true);
+				$("#select").html("已选中所有文件/文件夹&nbsp;&nbsp;&nbsp;&nbsp;<button class='pure-button pure-button-small' onclick=''>分享</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class='pure-button pure-button-small' onclick='download()'>下载</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class='pure-button pure-button-small' onclick='del()'>删除</button>");
+            });  		
+		}else {  
+            $("input[name=items]").each(function() {  
+                $(this).attr("checked", false);  
+				$("#select").html("文件夹");
+            });  
+        }  	
+	}
+	
+	function del(){
+		var inputs=document.getElementsByName("items");
+		var checked_counts = 0; 
+		var save_name = "";
+		for(var n=0;n<inputs.length;n++){
+			if(inputs[n].checked){
+			checked_counts++;
+			save_name += $("#file"+n).val()+",";
+			}
+			}
+		//alert(save_name);
+			if(confirm("您确认要删除该文件吗？")){        
+				$.get('{:U("Uploadify/del")}', {file_name: save_name}, function() {
+				//alert("删除成功！");
+				location.reload();});
+			}else{
+				return false;
+			}
+	}
+	
+	function download(){
+		//alert(document.getElementById("uer_name"));
+		var inputs=document.getElementsByName("items");
+		//var username=document.getElementById("uer_name").value;
+		var checked_counts = 0; 
+		var save_name = "";
+		var singleFile = "";
+		var nike_name ="";
+		for(var n=0;n<inputs.length;n++){
+			if(inputs[n].checked){
+			checked_counts++;
+			singleFile += $("#file"+n).val();
+			nike_name += $("#name"+n).text();
+			save_name += $("#file"+n).val()+",";
+			}
+			}
+		if(checked_counts>1){
+			$.get('{:U("Download/download")}', {file_name: save_name}, function() {
+				window.location.href="__ROOT__/Public/Upload/"+username+"/package.zip";			
+        });
+		}
+		else{
+			var url="__ROOT__/Public/Upload/"+username+"/"+ singleFile;
+			window.location.href="__TMPL__/download/file.php?url="+url+"&nikename="+nike_name;			
+		}
+	}
+	
+	function preview(filename,username,nickname){
+		var infoarr = nickname.split("."); 
+		var suffix = infoarr[infoarr.length-1];//文件后缀
+		var musicname = infoarr[infoarr.length-2];//文件原始名称，不带后缀
+		var savePath = "/Public/Upload/"+username+"/"+filename;//文件存储路径
+		if(suffix=="jpg"||suffix=="png"||suffix=="gif"||suffix=="jpeg"){
+			$('.modal-body').html('<img src="__ROOT__'+savePath+'" width="100%"/>')
+			$('#preview').modal();
+		}
+		else if(suffix=="txt"){
+			//$('.modal-body').html('<iframe src="__ROOT__/file.php?url='+filePath width="100%"></firame>')
+			$.get('{:U("Index/preview_text")}', {file_Path: savePath}, function(data) {
+				$('.modal-body').html(data);
+				$('#preview').modal();
+			});
+		//window.location.href="__TMPL__/preview_text/preview_text.php?file_Path="+filePath;			
+		}
+		else if(suffix=="zip"||suffix=="rar"){
+			$.get('{:U("Index/preview_zip")}', {file_Path: savePath}, function(data) {
+				$('.modal-body').html(data);
+				$('#preview').modal();
+			});
+		}
+		else if(suffix=="mp3"){
+			$.get('{:U("Index/get_musicCover")}', {musicname: musicname}, function(data) {
+/*				$('.modal-body').html(data);
+				$('#preview').modal();*/				
+				var info = data.split(",");
+				var cover = info[0];
+				var album = info[1]
+				var artist = info[2];
+				fileinfo.title = musicname;
+				fileinfo.artist = artist;
+				fileinfo.album = album;
+				fileinfo.cover = cover;
+				fileinfo.mp3 = savePath;
+				$( "#music" ).click();
+				$( "#button" ).click();					
+			});
+		}
+		else{
+			return;
+		}
+	}
+
+	function closelist(){
+		$("#close").hide();
+		$("#button").hide();
+		$("#myplayer").css("display","none");
+	}
+	$(function() {
+	function runEffect() {
+		var selectedEffect = "clip";
+		var options = {};
+		$( "#myplayer" ).toggle( selectedEffect, options, 500 );
+	};
+	$( "#button" ).click(function() {
+		if($(this).html()=="↑"){
+		$(this).html("↓");
+		}else{
+		$(this).html("↑");
+		}
+		runEffect();
+		return false;
+	});
+});
+
+</script>
+</block>
+<block name="content">
+
+
+<!--fileList table begin-->    
+    <table class="table table-hover">
+        <tbody id="filelist" style="height:50%; overflow:auto">
+    
+        </tbody>
+    </table>
+    <button class="pure-button pure-button-secondary pure-button-xsmall" id="music" onclick="music()" style="display:none"></button>
+
+<!--fileList table end-->
+    
+<!--music player begin-->
+<div id="myplayer">   
+	<!--<div id="background"></div>-->
+	<div id="player">
+		<div class="cover"></div>
+		<div class="ctrl">
+			<div class="tag">
+				<strong>Title</strong>
+				<span class="artist">Artist</span>
+				<span class="album">Album</span>
+			</div>
+			<div class="control">
+				<div class="left">
+					<div class="rewind icon"></div>
+					<div class="playback icon"></div>
+					<div class="fastforward icon"></div>
+				</div>
+				<div class="volume right">
+					<div class="mute icon left"></div>
+					<div class="slider left">
+						<div class="pace"></div>
+					</div>
+				</div>
+			</div>
+			<div class="schedule">
+				<div class="slider">
+					<div class="loaded"></div>
+					<div class="pace"></div>
+				</div>
+				<div class="timer left">0:00</div>
+				<div class="right">
+					<div class="repeat icon"></div>
+					<div class="shuffle icon"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<ul id="playlist"></ul>
+    <button class="pure-button pure-button-secondary pure-button-xsmall" id="button" style="position:absolute; top:30px; right:-50px; display: none">↑</button>
+    <button class="pure-button pure-button-secondary pure-button-xsmall" id="close" onclick="closelist()" style="position: absolute; top:0px; right:-50px;display:none">×</button> 
+    <script src="/Static/js/script.js"></script>
+    </div>
+<!--music player end-->    
+</block>

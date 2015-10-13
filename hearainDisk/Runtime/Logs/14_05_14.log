@@ -1,0 +1,240 @@
+[ 2014-05-14T11:25:35+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.029197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029384s ]
+
+[ 2014-05-14T11:25:36+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.049161s ]
+INFO: [ route_check ] --END-- [ RunTime:0.049284s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.365075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.365355s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.093321s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.045086s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009305s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.019493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.167601s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.060806s ]
+INFO: [ view_end ] --END-- [ RunTime:0.061030s ]
+
+[ 2014-05-14T11:25:37+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001092s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016758s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001112s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000894s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000823s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003858s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000846s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2014-05-14T11:25:45+08:00 ] 127.0.0.1 /index.php/Login/login.html?loginname=admin&passwd=123456
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001040s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `disk_login` [ RunTime:0.210400s ]
+SQL: SELECT * FROM `disk_login` WHERE ( user_name='admin' AND pwd='123456' ) LIMIT 1   [ RunTime:0.001945s ]
+
+[ 2014-05-14T11:25:46+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000306s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: select sum(file_size) as space from disk_files where user_name='admin' [ RunTime:0.132354s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.409703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.409859s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001055s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000878s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000830s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003820s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001055s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2014-05-14T11:25:47+08:00 ] 127.0.0.1 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000913s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.002686s ]
+SQL: SELECT * FROM `disk_files` WHERE ( user_name='admin' ) ORDER BY time  [ RunTime:0.000925s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2014-05-14T11:26:09+08:00 ] 127.0.0.1 /index.php/Index/get_musicCover.html?musicname=%E5%BE%90%E5%8D%83%E9%9B%85-%E8%B7%9F%E4%BD%A0%E4%B8%80%E8%BE%88%E5%AD%90
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000302s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-05-14T11:27:38+08:00 ] 127.0.0.1 /index.php/Uploadify/Index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000906s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: space D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Runtime\Cache\14193f95d001286b1eaa3137107b1eac.php 第 331 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.081604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081774s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002842s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002580s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001668s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008811s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001721s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001837s ]
+
+[ 2014-05-14T11:27:39+08:00 ] 127.0.0.1 /index.php/Uploadify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000281s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: space D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Runtime\Cache\5dab210446abf4c1aac33d1daafad071.php 第 331 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030484s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000381s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000286s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000241s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001356s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000274s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2014-05-14T11:27:55+08:00 ] 127.0.0.1 /index.php/Uploadify/upload.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000757s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.006596s ]
+SQL: INSERT INTO `disk_files` (`file_name`,`file_nickname`,`type`,`time`,`public`,`user_name`,`file_size`,`md5`) VALUES ('5372e2baea1a9.jpg','4845745_145121355164_2.jpg','jpg','2014-05-14 11:27:55',0,'admin',242727,'3bc5535a617b42e53aa2137f21a400ff') [ RunTime:0.000910s ]
+
+[ 2014-05-14T11:27:55+08:00 ] 127.0.0.1 /index.php/Uploadify/upload.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000894s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.003017s ]
+SQL: INSERT INTO `disk_files` (`file_name`,`file_nickname`,`type`,`time`,`public`,`user_name`,`file_size`,`md5`) VALUES ('5372e2bb2d725.jpg','060828381f30e924c90203a84c086e061c95f781.jpg','jpg','2014-05-14 11:27:55',0,'admin',401490,'a834e29e9cd0c9b78c86eb9d1ac12164') [ RunTime:0.000300s ]
+
+[ 2014-05-14T11:27:55+08:00 ] 127.0.0.1 /index.php/Uploadify/upload.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000295s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.002696s ]
+SQL: INSERT INTO `disk_files` (`file_name`,`file_nickname`,`type`,`time`,`public`,`user_name`,`file_size`,`md5`) VALUES ('5372e2bb4a9b8.jpg','964849943.jpg','jpg','2014-05-14 11:27:55',0,'admin',82056,'9d14dfa9a01019ce28f6793c1c61d9c3') [ RunTime:0.000277s ]
+
+[ 2014-05-14T11:27:55+08:00 ] 127.0.0.1 /index.php/Uploadify/upload.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000287s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.002568s ]
+SQL: INSERT INTO `disk_files` (`file_name`,`file_nickname`,`type`,`time`,`public`,`user_name`,`file_size`,`md5`) VALUES ('5372e2bb62873.jpg','9670164034572.jpg','jpg','2014-05-14 11:27:55',0,'admin',622723,'c416b552f056678d948d3b9375672173') [ RunTime:0.000251s ]
+
+[ 2014-05-14T11:28:06+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000332s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: select sum(file_size) as space from disk_files where user_name='admin' [ RunTime:0.000476s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017662s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000550s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000640s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000842s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002970s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000329s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2014-05-14T11:28:07+08:00 ] 127.0.0.1 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000288s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.003140s ]
+SQL: SELECT * FROM `disk_files` WHERE ( user_name='admin' ) ORDER BY time  [ RunTime:0.000883s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2014-05-14T11:28:44+08:00 ] 127.0.0.1 //index.php/Share/index.html?method=0&singleFile=5372e2bb62873.jpg&user=admin&nike=9670164034572.jpg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+NOTIC: [2] filesize() [<a href='function.filesize'>function.filesize</a>]: stat failed for D:/APMServ5.2.6/APMServ5.2.6/www/htdocsPublic/Upload/admin/5372e2bb62873.jpg D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\ShareAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: name D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Runtime\Cache\5b288db83805a7ab008a5f3187b671ce.php 第 126 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.111146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111257s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000731s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000766s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000657s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003313s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000722s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000872s ]
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+	<block name="title">母版页</block>
+</title>
+<script src="/Static/js/jquery.min.js"></script>
+<block name="script">
+ 
+</block>
+<link rel="stylesheet" href="/Static/css/font-awesome.min.css" />
+<link rel="stylesheet" href="/Static/css/common.css" />
+<link rel="stylesheet" href="/Static/css/pure-min.css">
+<block name="style">
+
+</block>
+</head>
+
+<body>
+	<div class="main">
+    	<div class="login_top">
+        	<a href="{:U('Login/index')}"><div class="f_logo"></div></a>
+            <div class="top_right">
+            	<a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://localhost/');" href="#">设为首页</a> |
+            	<a href="{:U('Admin/index')}">后台管理</a> |
+            	<a href="#">官方微博</a>
+            </div>
+        </div>
+        <block name="content">
+        
+        </block>
+        <div class="bottom">
+        
+        </div>
+    </div>
+</body>
+</html>

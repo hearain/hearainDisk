@@ -1,0 +1,1066 @@
+[ 2013-12-26T19:22:41+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.046653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046771s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.420085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.420214s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.104610s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.163034s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.109612s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.134128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.511687s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.207567s ]
+INFO: [ view_end ] --END-- [ RunTime:0.207654s ]
+
+[ 2013-12-26T19:22:42+08:00 ] 127.0.0.1 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.232877s ]
+INFO: [ route_check ] --END-- [ RunTime:0.232988s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.021866s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.009840s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T19:30:59+08:00 ] 192.168.99.100 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022842s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001119s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000952s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000905s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004113s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001671s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001753s ]
+
+[ 2013-12-26T19:31:00+08:00 ] 192.168.99.100 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000985s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.047392s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.000945s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T19:34:14+08:00 ] 192.168.99.100 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020829s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001087s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000925s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000893s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004013s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000959s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2013-12-26T19:34:14+08:00 ] 192.168.99.100 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001078s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.023743s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.001014s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T19:34:19+08:00 ] 192.168.99.100 /index.php/Uploadify/Index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000465s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.063322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063442s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001079s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001004s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001039s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004275s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001134s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2013-12-26T19:34:19+08:00 ] 192.168.99.100 /index.php/Uploadify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032972s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000458s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000340s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000290s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001595s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000330s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2013-12-26T19:34:31+08:00 ] 192.168.99.100 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000390s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016550s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000508s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000343s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000295s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001677s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000554s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2013-12-26T19:34:31+08:00 ] 192.168.99.100 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000365s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.003316s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.001701s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T19:36:14+08:00 ] 192.168.99.100 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016603s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000586s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000459s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000381s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002076s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000334s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2013-12-26T19:36:14+08:00 ] 192.168.99.100 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000357s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.002871s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.000901s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T19:36:22+08:00 ] 192.168.99.100 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020842s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001072s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001113s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001011s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004514s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001116s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2013-12-26T19:36:22+08:00 ] 192.168.99.100 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000950s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.003096s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.001141s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T19:40:55+08:00 ] 192.168.99.100 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015990s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001078s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000942s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000898s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004040s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001214s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2013-12-26T19:40:56+08:00 ] 192.168.99.100 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000981s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.002756s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.001080s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T19:46:01+08:00 ] 192.168.99.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020642s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001058s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000926s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000908s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000966s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004012s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000928s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2013-12-26T19:46:03+08:00 ] 192.168.99.101 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002656s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002843s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002728s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.004736s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.001323s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T19:50:18+08:00 ] 192.168.99.100 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016129s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001104s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000945s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000898s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004051s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001240s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001326s ]
+
+[ 2013-12-26T19:50:18+08:00 ] 192.168.99.100 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000984s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.002846s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.001040s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T19:52:15+08:00 ] 192.168.99.100 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016238s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001100s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000938s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000892s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004046s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001136s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2013-12-26T19:52:15+08:00 ] 192.168.99.100 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000957s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.004108s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.001825s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T19:54:03+08:00 ] 192.168.99.100 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016292s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001079s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000928s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000893s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000965s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004026s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000975s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2013-12-26T19:54:04+08:00 ] 192.168.99.100 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.004354s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.001143s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T20:05:46+08:00 ] 192.168.99.100 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015108s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000952s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000827s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000781s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003558s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000907s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2013-12-26T20:05:46+08:00 ] 192.168.99.100 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000863s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.002630s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.000977s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T20:05:47+08:00 ] 192.168.99.100 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020527s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000596s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000424s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000355s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002102s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000633s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2013-12-26T20:05:47+08:00 ] 192.168.99.100 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000254s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.002306s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.000772s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T20:05:47+08:00 ] 192.168.99.100 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009504s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000322s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000238s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000204s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001170s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000249s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2013-12-26T20:05:47+08:00 ] 192.168.99.100 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001056s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.002585s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.000576s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T20:05:47+08:00 ] 192.168.99.100 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012949s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000913s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000823s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000778s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003508s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001239s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2013-12-26T20:05:47+08:00 ] 192.168.99.100 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000846s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.003120s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.000816s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T20:05:47+08:00 ] 192.168.99.100 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013011s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000920s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000830s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000784s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003544s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001243s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2013-12-26T20:05:48+08:00 ] 192.168.99.100 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000851s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.002132s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.001148s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T20:06:15+08:00 ] 192.168.99.100 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015112s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000998s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000846s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000795s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003643s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000862s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2013-12-26T20:06:15+08:00 ] 192.168.99.100 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000255s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.002577s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.000886s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T20:06:15+08:00 ] 192.168.99.100 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014738s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000469s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000255s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000209s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001423s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000354s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2013-12-26T20:06:15+08:00 ] 192.168.99.100 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000250s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.002082s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.000860s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T20:06:15+08:00 ] 192.168.99.100 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009567s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000328s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000241s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000203s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001180s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000289s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2013-12-26T20:06:15+08:00 ] 192.168.99.100 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.002153s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.000600s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T20:07:39+08:00 ] 192.168.99.100 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019820s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000975s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000827s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000792s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003594s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000971s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2013-12-26T20:07:39+08:00 ] 192.168.99.100 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000263s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.002226s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.000643s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T20:08:56+08:00 ] 192.168.99.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015130s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001057s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001042s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000870s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004077s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000919s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2013-12-26T20:08:57+08:00 ] 192.168.99.101 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001800s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.004895s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.000863s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T20:10:06+08:00 ] 192.168.99.101 /index.php/Uploadify/Index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000842s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013482s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000938s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000831s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000784s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003549s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000817s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2013-12-26T20:10:16+08:00 ] 192.168.99.101 /index.php/Uploadify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000242s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013028s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000460s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000366s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000301s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001743s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000353s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2013-12-26T20:10:25+08:00 ] 192.168.99.101 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000645s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027857s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000783s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000618s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000515s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002889s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000540s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2013-12-26T20:10:26+08:00 ] 192.168.99.101 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000683s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.004873s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.001660s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T20:10:34+08:00 ] 192.168.99.101 /index.php/Uploadify/Index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000259s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010529s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000319s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000244s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000198s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001166s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000232s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2013-12-26T20:10:37+08:00 ] 192.168.99.101 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000252s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011516s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000333s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000246s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000200s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001186s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000232s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2013-12-26T20:10:38+08:00 ] 192.168.99.101 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000659s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.002161s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.000828s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T20:10:45+08:00 ] 192.168.99.101 /index.php/Uploadify/Index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000649s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017245s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000536s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000417s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001965s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000387s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2013-12-26T20:10:49+08:00 ] 192.168.99.101 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000253s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011635s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000348s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000246s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000202s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001208s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000233s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2013-12-26T20:10:50+08:00 ] 192.168.99.101 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000251s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.002267s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.000749s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T20:11:24+08:00 ] 192.168.99.101 /index.php/Download/download.html?file_name=5295f72066f9c.jpg%2C5295f72029917.jpg%2C
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000836s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: [8] Undefined variable: file D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\DownloadAction.class.php 第 15 行.
+
+[ 2013-12-26T20:11:27+08:00 ] 192.168.99.101 /index.php/Uploadify/Index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013368s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000957s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000877s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000795s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003637s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000822s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2013-12-26T20:11:41+08:00 ] 192.168.99.101 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000670s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032505s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001004s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000681s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000556s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003362s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000629s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2013-12-26T20:11:42+08:00 ] 192.168.99.101 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000594s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.004771s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.000712s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T20:13:06+08:00 ] 192.168.99.101 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021577s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000362s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000250s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000204s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001231s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000234s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2013-12-26T20:13:08+08:00 ] 192.168.99.101 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001182s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.003144s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.001028s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T20:13:24+08:00 ] 192.168.99.101 /index.php/Uploadify/Index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002033s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002221s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002153s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014050s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000908s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000821s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000779s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003498s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000810s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2013-12-26T20:13:26+08:00 ] 192.168.99.101 /index.php/Uploadify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000675s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025866s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000749s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000589s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000481s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002807s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000570s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2013-12-26T20:13:28+08:00 ] 192.168.99.101 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000685s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020370s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000342s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000246s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000201s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001200s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000235s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000292s ]
+
+[ 2013-12-26T20:13:28+08:00 ] 192.168.99.101 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000657s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.005663s ]
+SQL: SELECT * FROM `disk_files` ORDER BY time LIMIT 20   [ RunTime:0.001912s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2013-12-26T20:13:34+08:00 ] 192.168.99.101 /index.php/Index/preview_zip.html?file_Path=%2FPublic%2FUpload%2F52a59e7d2fa82.rar
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000700s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: 建议使用I方法替代_get
+
+[ 2013-12-26T20:13:57+08:00 ] 192.168.99.101 /index.php/Index/preview_text.html?file_Path=%2FPublic%2FUpload%2F52a5a16d4dfe1.txt
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002310s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002522s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002480s ]
+NOTIC: 建议使用I方法替代_get
+

@@ -1,0 +1,120 @@
+[ 2013-12-19T09:07:48+08:00 ] 10.10.0.32 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003054s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.103036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103283s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003198s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002345s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002063s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010584s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002752s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002966s ]
+
+[ 2013-12-19T09:08:59+08:00 ] 10.10.0.32 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002280s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032224s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000796s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000565s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000409s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002762s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000582s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2013-12-19T11:05:32+08:00 ] 10.10.0.145 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002338s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036673s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001519s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001276s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001132s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005670s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001293s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2013-12-19T11:06:42+08:00 ] 10.10.0.145 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035244s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000726s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000509s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000349s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002420s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000503s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2013-12-19T11:27:42+08:00 ] 10.10.0.32 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027652s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001221s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001014s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000936s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004632s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001112s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2013-12-19T11:28:54+08:00 ] 10.10.0.32 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030068s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000788s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000608s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000437s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002799s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000573s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000743s ]
+

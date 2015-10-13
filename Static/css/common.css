@@ -1,0 +1,506 @@
+/*公共模块*/
+body{
+	overflow-x: hidden;
+	min-width: 1000px;
+}
+.top{
+	width:100%;
+	height:60px;
+	background: #252525;
+	box-shadow: 0px 0px 5px #333333;
+}
+.logo{
+	width:250px;
+	height:100%;
+	background: url(images/logo.png);
+	float:left;
+}
+.title{
+	width:100px;
+	float:left;
+	font-size:24px;
+	color:#FFFFFF;
+	margin-left:10px;
+	margin-top:10px;
+	text-align: center;
+}
+.tool{
+	float: right;
+	position: absolute;
+	right: 0px;
+}
+.search{
+	float: left;
+	margin-right:20px;
+	margin-top:20px;
+}
+#search{
+	border:#ccc;
+	color:#a0a0a0;
+	padding:3px;
+}
+.userinfo{
+	width:auto;
+	float:left;
+	margin-top:20px;
+}
+.userinfo a{
+	float:left;
+	margin-right:30px;
+	color:#D8D8D8;
+}
+.userinfo a:hover{
+	color:#FFFFFF;
+}
+.userinfo a:visited{
+	color:#FFFFFF;
+}
+#mainbody{
+	position: relative;
+	width:100%;
+	float:left;
+	z-index:-1;
+}
+.left_nav{
+	width:210px;
+	height:100%;
+	background:#F0F0F0 url(images/aside-right-shadow.jpg) repeat-y;
+	position: relative;
+	float:left;
+	border-right: 1px solid rgb(198, 200, 204);
+}
+.right_list{
+	height:100%;
+	overflow:hidden;
+}
+.right_top{
+	clear: both;
+	padding: 13px 30px;
+	font-size: 12px;
+	border: 1px solid rgb(210, 210, 210);
+	border-width: 1px;
+	height:24px;
+	position:fixed;
+	background: #F7F7F7;
+	border-left: none;
+}
+.right_body{
+	margin-top: 47px;
+	height:83%;
+	overflow:auto;
+}
+#list_title{
+	position:fixed;
+	background:#fff;
+}
+#filelist{
+	margin-top:52px;
+}
+.nav{
+	height:auto;
+}
+.nav ul{
+	list-style: none outside none;
+	font-size:14px;
+	padding: 0px;
+}
+.nav ul li{
+	height:33px;
+	line-height:40px;
+	padding-left: 40px;
+	cursor: pointer;
+}
+.nav ul li:hover{
+	background: url(images/aside-hover-on.png) 0 -33px repeat-y;
+}
+.nav ul li a{
+	margin-left:40px;
+	color: #333333;
+}
+.nav ul li a:hover{
+	text-decoration: none;
+}
+.over{
+	background: url(images/aside-hover-on.png) 0 -33px repeat-y;;
+}
+.line{
+	height: 4px;
+	line-height: 0;
+	background:url(images/line.png) no-repeat;
+	overflow: hidden;
+	margin: 5px auto;
+}
+.clientDownload{
+	width: 150px;
+	margin: 10px auto;
+	height: 50px;
+}
+.box{
+	width: 40px;
+	height: 35px;
+	display: block;
+	position: relative;
+	margin-right:10px;
+	background:url(images/btn-4.png) no-repeat;
+	float:left;
+}
+.client{
+	height: 35px;
+	display: block;
+	position: relative;
+	float:left;
+}
+.client_pc{
+	margin-left:10px;
+}
+.client_android{
+	margin-left:15px;
+}
+.client_iphone{
+	margin-left:8px;
+}
+.pc{
+	background-position:8px -64px;
+}
+.android{
+	background-position:-63px -64px;
+}
+.iphone{
+	background-position:8px -94px;
+}
+.footer{
+	height:10%;
+	width:100%;
+}
+.capacity{
+	width:140px;
+	height:6px;
+	background:#c6cfda;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+}
+.capacity span{
+	height: 6px;
+	max-width: 155px;
+	width: 5px;
+	line-height: 0;
+	background: #3482da;
+	display: block;
+}
+.use{
+	margin-top:5px;
+	margin-left:35px;
+	width:100px;
+}
+.choosed{
+	background: url(/Static/css/images/aside-hover-on.png) 0 -33px repeat-y;;
+}
+#totalSpace{
+		float:left;
+}
+#showSpace{
+		float:left;
+}
+/*登录模块*/
+.login_top{
+	width:100%;
+	height:60px;
+	background: #FEFEFE;
+	box-shadow: 0px 0px 5px #333333;
+}
+.top_right{
+	width:260px;
+	float:right;
+	margin-top:15px;
+	font-size:12px;
+}
+.top_right a{
+	color:#5B7E9B;
+}
+.main_body{
+	width:100%;
+	height:417px;
+	background: url(images/background.jpg) repeat-x;
+}
+.login-middle{
+	clear: both;
+	width: 1002px;
+	position: relative;
+	height: 465px;
+	margin: 0px auto;
+}
+.banner{
+	width:60%;
+	height:100%;
+	float:left;
+}
+.banner_right{
+	width:40%;
+	margin:auto;
+	float:left;
+}
+.longinTable{
+	width:300px;
+	height:435px;
+	margin-left:20px;
+	margin-top:20px;
+	padding-top:10px;
+	padding-left:20px;
+	background: url(images/login-all.gif);
+	background-position:-110px -145px;
+}
+.adminlonginTable{
+	width:300px;
+	height:235px;
+	margin-left:20px;
+	margin-top:70px;
+	padding-top:10px;
+	padding-left:20px;
+	background: url(images/login.png) no-repeat;
+}
+.f_logo{
+	width:250px;
+	height:100%;
+	background: url(images/f_logo.png);
+	float:left;
+}
+.login_title{
+	font-size: 14px;
+	color: rgb(36, 134, 196);
+	font-weight: bold;
+}
+.userinformation{
+	width:280px;
+}
+.register{
+	margin-top:40px;
+}
+.autologin{
+	height:28px;
+}
+.otherlogin{
+	margin-top:20px;
+}
+.qq{
+	width:280px;
+	height:50px;
+	background:url(images/login-all.gif);
+	background-position:-1180px -9px;
+}
+.donwnload{
+	background:url(images/login-all.gif);
+	background-position: -480px -165px;
+	width:930px;
+	height:110px;
+	margin:0px auto;
+}
+.footer{
+	font-size:15px;
+	color: #999999;
+	width:250px;
+	margin:30px auto;
+}
+/*分享模块*/
+.sharebody{
+	position: relative;
+	width:100%;
+	float:left;
+	z-index:-1;
+	height:690px;
+	background:#E9ECEC;
+}
+.file_div{
+	width:70%;
+	height:570px;
+	margin:20px auto;
+	background:#F9F9F9;
+}
+.file_date{
+	width:75%;
+	height:100%;
+	border-right:1px #E7E7E7 solid;
+	float:left;
+	background:#FFF;
+}
+.file_title{
+	width:100%;
+	height:60px;
+}
+.shareTitle{
+	height:30px;
+	width:50%;
+	font-size:14px;
+	float:left;
+	margin-left:15px;
+	margin-top: 18px;	
+}
+.donwnloadBtn{
+	float:right;
+	margin-right:10px;
+	margin-top: 13px;
+	width:200px;
+}
+.smallico{
+	background:url(images/sprite_list_icon.gif) no-repeat;
+	height: 22px;
+    margin-right: 5px;
+    position: relative;
+    width: 26px;
+	float:left;
+}
+.fileName{
+    overflow: hidden;
+    text-overflow: ellipsis;
+	width:300px;
+	float: left;
+}
+.filePic{
+	width:95%;
+	height:80%;
+	border:1px #E7E7E7 solid;
+	margin:20px auto;
+}
+.pic{
+	height: 95px;
+    margin: 20% auto 0 auto;
+    text-indent: -9999em;
+    width: 95px;
+	background:url(images/property_icon_101.png) no-repeat;
+}
+.view-file-image{
+	background-position: -2142px 0;
+}
+.fileSize{
+	width:120px;
+	margin:auto;
+}
+.ownerinfo{
+	width:24%;
+	float:left;
+}
+.property-list{
+	width::100%;
+	height:168px;
+}
+.clearfix{
+	width:70%;
+	margin:0 auto;
+	padding: 10px 0;
+}
+.userphoto{
+	float:left;
+	width:70px;
+	height:70px;
+	border:1px #DDDDDD solid;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+.username{
+	margin-left:15px;
+	margin-top:10px;
+	font-size:14px;
+	font-weight:bold;
+	float:left;
+}
+.shareNum{
+    height: 46px;
+    margin: 0 auto;
+    width: 200px;
+}
+.shareNum li {
+    border-color: #F2F2F4;
+    border-right: 1px solid #F2F2F4;
+    float: left;
+    list-style: none outside none;
+    padding: 0 3px 3px;
+    text-align: center;
+    width: 43px;
+}
+.shareNum li a {
+    color: #333333;
+    font-size: 12px;
+}
+.shareNum a {
+    width: 50px;
+}
+.shareNum a em {
+    color: #333333;
+    font-family: tahoma;
+    font-size: 18px;
+}
+.shareNum li em {
+    color: #333333;
+    display: block;
+    font-family: Tahoma;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 5px;
+	font-style: normal;
+}
+.correlation{
+	width::100%;
+	height:auto;
+}
+.hr{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #E3E3E3;
+    border-color: -moz-use-text-color -moz-use-text-color #FFFFFF;
+    border-image: none;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    height: 1px;
+    margin: 14px 15px 7px;
+    overflow: hidden;
+}
+.resourceTitle{
+	width:100%;
+	height: 20px;
+    margin-left: 15px;
+	font-size:15px;
+	font-weight:bold;
+}
+.resource{
+	margin-top:5px;
+}
+.resource li{
+	height:25px;
+}
+.share-footer{
+    background: #E9ECEC;
+    clear: both;
+    color: #666666;
+    font: 12px/1.5 tahoma,arial,simsun;
+    padding: 30px 0;
+    text-align: center;
+	bottom: 0px;
+	width: 100%;
+}
+/*注册模块*/
+.registerTable{
+	width:50%;
+	height:300px;
+	box-shadow: 0px 0px 2px #333333;
+	margin:50px auto;
+	padding-top:10px;
+}
+.registerTable p{
+    font-size: 18px;
+    margin-left: 20px;
+}
+.foot{
+	width:100%;
+	padding: 30px 0;
+	height:40px;
+	font: 12px/1.5 tahoma,arial,simsun;
+	color:#fff;
+	background: #333333;
+	text-align:center;
+	position:fixed;
+	bottom:0;
+	box-shadow: 0px -2px 5px #333333;
+}

@@ -1,0 +1,45 @@
+[ 2014-04-01T17:21:15+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+
+[ 2014-04-01T17:21:15+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001521s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004103s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.057349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057605s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002507s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003813s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000854s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009133s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002213s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002444s ]
+
+[ 2014-04-01T17:21:17+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001760s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002045s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032495s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001582s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001614s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000945s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006313s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001463s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001697s ]
+

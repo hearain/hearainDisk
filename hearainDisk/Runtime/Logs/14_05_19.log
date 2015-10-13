@@ -1,0 +1,339 @@
+[ 2014-05-19T13:49:02+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.029334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029514s ]
+
+[ 2014-05-19T13:49:04+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.272180s ]
+INFO: [ route_check ] --END-- [ RunTime:0.272315s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:1.853111s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.853403s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.083376s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.044954s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009481s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.018708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.156931s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.028283s ]
+INFO: [ view_end ] --END-- [ RunTime:0.028423s ]
+
+[ 2014-05-19T13:49:06+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023647s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001250s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001143s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001079s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004818s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001124s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2014-05-19T13:59:31+08:00 ] 127.0.0.1 /index.php/Login/login.html?loginname=admin&passwd=123456
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001208s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `disk_login` [ RunTime:0.048087s ]
+SQL: SELECT * FROM `disk_login` WHERE ( user_name='admin' AND pwd='123456' ) LIMIT 1   [ RunTime:0.002512s ]
+
+[ 2014-05-19T13:59:31+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000521s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: select sum(file_size) as space from disk_files where user_name='admin' [ RunTime:0.086923s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.216856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.216989s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001825s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001375s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001275s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006083s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001327s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2014-05-19T13:59:32+08:00 ] 127.0.0.1 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001465s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.004054s ]
+SQL: SELECT * FROM `disk_files` WHERE ( user_name='admin' ) ORDER BY time  [ RunTime:0.001251s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2014-05-19T14:02:07+08:00 ] 127.0.0.1 /index.php/Login/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001234s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+
+[ 2014-05-19T14:02:07+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001303s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022044s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001335s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001180s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001091s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004982s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001217s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2014-05-19T14:02:07+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000391s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017412s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001287s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001247s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001121s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005288s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001176s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001251s ]
+
+[ 2014-05-19T14:02:13+08:00 ] 127.0.0.1 /index.php/Login/login.html?loginname=sdfsdfsfd&passwd=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000513s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `disk_login` [ RunTime:0.004077s ]
+SQL: SELECT * FROM `disk_login` WHERE ( user_name='sdfsdfsfd' AND pwd='' ) LIMIT 1   [ RunTime:0.000906s ]
+
+[ 2014-05-19T14:02:18+08:00 ] 127.0.0.1 /index.php/Login/login.html?loginname=sdfsdfsfd&passwd=dsfdsfsfs
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000435s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `disk_login` [ RunTime:0.003481s ]
+SQL: SELECT * FROM `disk_login` WHERE ( user_name='sdfsdfsfd' AND pwd='dsfdsfsfs' ) LIMIT 1   [ RunTime:0.000841s ]
+
+[ 2014-05-19T14:02:32+08:00 ] 127.0.0.1 /index.php/Login/login.html?loginname=admin&passwd=dsfdsfsfs
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000584s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `disk_login` [ RunTime:0.004889s ]
+SQL: SELECT * FROM `disk_login` WHERE ( user_name='admin' AND pwd='dsfdsfsfs' ) LIMIT 1   [ RunTime:0.001544s ]
+
+[ 2014-05-19T14:04:02+08:00 ] 127.0.0.1 /index.php/Register/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000591s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064902s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000736s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000501s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002449s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000452s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2014-05-19T14:04:19+08:00 ] 127.0.0.1 /index.php/Register/register.html?loginname=admin&passwd=123456
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001248s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `disk_login` [ RunTime:0.003448s ]
+SQL: INSERT INTO `disk_login` (`user_name`,`pwd`) VALUES ('admin','123456') [ RunTime:0.001125s ]
+ERR: 1062:Duplicate entry 'admin' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `disk_login` (`user_name`,`pwd`) VALUES ('admin','123456')
+
+[ 2014-05-19T14:04:28+08:00 ] 127.0.0.1 /index.php/Register/register.html?loginname=test&passwd=123456
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000526s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `disk_login` [ RunTime:0.004652s ]
+SQL: INSERT INTO `disk_login` (`user_name`,`pwd`) VALUES ('test','123456') [ RunTime:0.001468s ]
+ERR: 1062:Duplicate entry 'test' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `disk_login` (`user_name`,`pwd`) VALUES ('test','123456')
+
+[ 2014-05-19T14:05:41+08:00 ] 127.0.0.1 /index.php/Register/register.html?loginname=%E6%B5%8B%E8%AF%95&passwd=123456
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000416s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `disk_login` [ RunTime:0.003734s ]
+SQL: INSERT INTO `disk_login` (`user_name`,`pwd`) VALUES ('测试','123456') [ RunTime:0.001098s ]
+
+[ 2014-05-19T14:05:41+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000572s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: select sum(file_size) as space from disk_files where user_name='测试' [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026697s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001365s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001502s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001148s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005447s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001385s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001512s ]
+
+[ 2014-05-19T14:05:42+08:00 ] 127.0.0.1 /index.php/Index/files.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000405s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `disk_files` [ RunTime:0.003915s ]
+SQL: SELECT * FROM `disk_files` WHERE ( user_name='测试' ) ORDER BY time  [ RunTime:0.000924s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php:1) D:\APMServ5.2.6\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2014-05-19T14:06:47+08:00 ] 127.0.0.1 /index.php/Login/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001369s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+
+[ 2014-05-19T14:06:47+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001218s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001313s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001151s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001097s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004943s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001140s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2014-05-19T14:06:47+08:00 ] 127.0.0.1 /index.php/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001282s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020044s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001286s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001167s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001088s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004900s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001128s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2014-05-19T14:06:49+08:00 ] 127.0.0.1 /index.php/Register/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000537s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011457s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000471s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000378s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001811s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000357s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000427s ]
+

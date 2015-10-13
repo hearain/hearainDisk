@@ -1,0 +1,297 @@
+[ 2013-11-15T14:15:59+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003524s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.069031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069205s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.007450s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004099s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003714s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019738s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003607s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003729s ]
+
+[ 2013-11-15T14:22:26+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003567s ]
+NOTIC: [2] mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Can't connect to MySQL server on 'localhost' (10061) E:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php 第 5 行.
+NOTIC: [2] mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established E:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php 第 5 行.
+ERR: 模板不存在[./hearainDisk/Tpl/Index/index.html]
+
+[ 2013-11-15T14:22:48+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002870s ]
+NOTIC: [8] Undefined variable: result E:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php 第 5 行.
+ERR: 模板不存在[./hearainDisk/Tpl/Index/index.html]
+
+[ 2013-11-15T14:22:49+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002484s ]
+NOTIC: [8] Undefined variable: result E:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php 第 5 行.
+ERR: 模板不存在[./hearainDisk/Tpl/Index/index.html]
+
+[ 2013-11-15T14:22:50+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002715s ]
+NOTIC: [8] Undefined variable: result E:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php 第 5 行.
+ERR: 模板不存在[./hearainDisk/Tpl/Index/index.html]
+
+[ 2013-11-15T14:22:50+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002469s ]
+NOTIC: [8] Undefined variable: result E:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php 第 5 行.
+ERR: 模板不存在[./hearainDisk/Tpl/Index/index.html]
+
+[ 2013-11-15T14:22:56+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002521s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004450s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.003847s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002430s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002295s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011289s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002892s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003007s ]
+
+[ 2013-11-15T14:23:25+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002739s ]
+NOTIC: [2] mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Can't connect to MySQL server on 'localhost' (10061) E:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php 第 5 行.
+NOTIC: [2] mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established E:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php 第 5 行.
+ERR: 模板不存在[./hearainDisk/Tpl/Index/index.html]
+
+[ 2013-11-15T14:24:00+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004032s ]
+NOTIC: [2] mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Can't connect to MySQL server on 'localhost' (10061) E:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php 第 5 行.
+NOTIC: [2] mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established E:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041651s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002582s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002780s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002378s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010560s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002435s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002556s ]
+
+[ 2013-11-15T14:27:38+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002744s ]
+NOTIC: [2] mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Can't connect to MySQL server on 'localhost' (10061) E:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php 第 5 行.
+NOTIC: [2] mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established E:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php 第 5 行.
+NOTIC: [2] mysql_fetch_array(): supplied argument is not a valid MySQL result resource E:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005343s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.003499s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002938s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003167s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013008s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002803s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002942s ]
+
+[ 2013-11-15T14:27:40+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003088s ]
+NOTIC: [2] mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Can't connect to MySQL server on 'localhost' (10061) E:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php 第 5 行.
+NOTIC: [2] mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established E:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php 第 5 行.
+NOTIC: [2] mysql_fetch_array(): supplied argument is not a valid MySQL result resource E:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005801s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.003776s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003448s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002902s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014201s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003842s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003992s ]
+
+[ 2013-11-15T14:34:58+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003192s ]
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on 'localhost' (10061) E:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Can't connect to MySQL server on 'localhost' (10061)
+
+[ 2013-11-15T14:35:41+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002515s ]
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on 'localhost' (10061) E:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Can't connect to MySQL server on 'localhost' (10061)
+
+[ 2013-11-15T14:35:50+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002953s ]
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on 'localhost' (10061) E:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Can't connect to MySQL server on 'localhost' (10061)
+
+[ 2013-11-15T14:36:43+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002713s ]
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on 'localhost' (10061) E:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Can't connect to MySQL server on 'localhost' (10061)
+
+[ 2013-11-15T14:37:01+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002702s ]
+SQL: SHOW COLUMNS FROM `disk_user` [ RunTime:0.004540s ]
+ERR: 1146:Table 'hearaindisk.disk_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `disk_user`
+SQL: SELECT * FROM `disk_user` WHERE ( id=1 ) LIMIT 10   [ RunTime:0.001518s ]
+ERR: 1146:Table 'hearaindisk.disk_user' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `disk_user` WHERE ( id=1 ) LIMIT 10  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003958s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.002674s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002526s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002473s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010921s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002340s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002455s ]
+
+[ 2013-11-15T14:37:05+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003138s ]
+SQL: SHOW COLUMNS FROM `disk_user` [ RunTime:0.004629s ]
+ERR: 1146:Table 'hearaindisk.disk_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `disk_user`
+SQL: SELECT * FROM `disk_user` WHERE ( id=1 ) LIMIT 10   [ RunTime:0.002147s ]
+ERR: 1146:Table 'hearaindisk.disk_user' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `disk_user` WHERE ( id=1 ) LIMIT 10  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004954s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.003003s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002979s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002885s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012507s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003226s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003361s ]
+
+[ 2013-11-15T14:39:17+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004174s ]
+SQL: SHOW COLUMNS FROM `disk_user` [ RunTime:0.007316s ]
+ERR: 1146:Table 'hearaindisk.disk_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `disk_user`
+NOTIC: [8] Undefined variable: data E:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php 第 6 行.
+
+[ 2013-11-15T14:39:20+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004006s ]
+SQL: SHOW COLUMNS FROM `disk_user` [ RunTime:0.007423s ]
+ERR: 1146:Table 'hearaindisk.disk_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `disk_user`
+NOTIC: [8] Undefined variable: data E:\APMServ5.2.6\www\htdocs\hearainDisk\Lib\Action\IndexAction.class.php 第 6 行.
+
+[ 2013-11-15T14:53:41+08:00 ] 127.0.0.1 /index.php/Setting/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.023354s ]
+INFO: [ route_check ] --END-- [ RunTime:0.023537s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002705s ]
+ERR: 无法加载模块:Setting
+
+[ 2013-11-15T16:34:13+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003213s ]
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to MySQL server on 'localhost' (10061) E:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Can't connect to MySQL server on 'localhost' (10061)
+
+[ 2013-11-15T16:40:09+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+SQL: SHOW COLUMNS FROM `disk_user` [ RunTime:0.005166s ]
+ERR: 1146:Table 'hearaindisk.disk_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `disk_user`
+SQL: SELECT * FROM `disk_user` WHERE ( id=1 ) LIMIT 10   [ RunTime:0.001278s ]
+ERR: 1146:Table 'hearaindisk.disk_user' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `disk_user` WHERE ( id=1 ) LIMIT 10  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.283121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.283282s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' E:\APMServ5.2.6\www\htdocs\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.103416s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007574s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004091s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.118825s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003620s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003751s ]
+
+[ 2013-11-15T16:54:37+08:00 ] 127.0.0.1 /index.php/Password/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.046193s ]
+INFO: [ route_check ] --END-- [ RunTime:0.046353s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001836s ]
+ERR: 无法加载模块:Password
+
+[ 2013-11-15T17:14:41+08:00 ] 127.0.0.1 /index.php?a=login&m=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001804s ]
+ERR: 无法加载模块:index
+

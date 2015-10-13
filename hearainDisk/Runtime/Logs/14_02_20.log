@@ -1,0 +1,5 @@
+[ 2014-02-20T23:27:32+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.157519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.157664s ]
+
